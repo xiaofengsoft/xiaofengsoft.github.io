@@ -27,12 +27,12 @@ export default hopeTheme({
   sidebar,
 
   // 页脚
-  footer: "默认页脚",
+  footer: "",
   displayFooter: true,
 
   // 博客相关
   blog: {
-    description: "一个前端开发者",
+    description: "张一风的个人博客",
     intro: "/intro.html",
     medias: {
       Baidu: "https://example.com",
@@ -98,6 +98,13 @@ export default hopeTheme({
     //   provider: "Waline",
     //   serverURL: "https://waline-comment.vuejs.press",
     // },
+    comment: {
+      provider: "Giscus",
+      repoId: "890315142",
+      repo: "xiaofengsoft/xiaofengsoft.github.io",
+      category: "General",
+      categoryId: "DIC_kwDONREhhs4CkXe1",
+    },
 
     components: {
       components: ["Badge", "VPCard"],
