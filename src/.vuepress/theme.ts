@@ -7,15 +7,16 @@ export default hopeTheme({
   hostname: "https://mister-hope.github.io",
 
   author: {
-    name: "Mr.Hope",
-    url: "https://mister-hope.com",
+    name: "张一风",
+    url: "https://github.com/xiaogfengsoft",
+    email: "xiaofengs@yeah.net",
   },
 
   iconAssets: "fontawesome-with-brands",
 
-  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+  logo: "https://avatars.githubusercontent.com/u/52116726?v=4",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "xiaofengsoft/xiaofengsoft.github.io",
 
   docsDir: "src",
 
