@@ -73,10 +73,10 @@ export default hopeTheme(
       // },
       comment: {
         provider: "Giscus",
-        repoId: "890350268",
+        repoId: "R_kgDONRLacQ",
         repo: "xiaofengsoft/xiaofengsoft.github.io",
         category: "General",
-        categoryId: "DIC_kwDONRGqvM4CkXgs",
+        categoryId: "DIC_kwDONRLacc4CkXyN",
       },
 
       components: {
