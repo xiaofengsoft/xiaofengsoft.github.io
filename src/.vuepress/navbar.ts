@@ -26,6 +26,10 @@ export default navbar([
         text: "统计学",
         link: "统计学/",
       },
+      {
+        text: "数据分析",
+        link: "数据分析/",
+      },
     ],
   },
   {
