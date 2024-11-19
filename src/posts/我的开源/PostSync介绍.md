@@ -1,5 +1,4 @@
 ---
-icon: https://raw.githubusercontent.com/xiaofengsoft/postsync/refs/heads/master/static/imgs/logo.png
 date: 2024-11-18
 title: PostSync介绍
 category:

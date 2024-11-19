@@ -3,22 +3,34 @@ import { navbar } from "vuepress-theme-hope";
 export default navbar([
   "/",
   {
-    text: "关于我",
-    link: "/intro",
-  },
-  {
-    text: "文章",
-    link: "/posts/",
-  },
-  {
-    text: "机器学习",
+    text: "题解",
     icon: "pen-to-square",
-    prefix: "/posts/",
+    prefix: "/posts/题解/",
     children: [
       {
-        text: "Pandas学习",
-        link: "pandas",
+        text: "蓝桥杯题解",
+        link: "蓝桥杯/",
+      },
+      {
+        text: "力扣题解",
+        link: "力扣/",
       },
     ],
+  },
+  {
+    text: "数学建模",
+    icon: "square-root-variable",
+    prefix: "/posts/数学建模/",
+    children: [
+      {
+        text: "统计学",
+        link: "统计学/",
+      },
+    ],
+  },
+  {
+    icon: "face-rolling-eyes",
+    text: "关于我",
+    link: "/intro",
   },
 ]);
