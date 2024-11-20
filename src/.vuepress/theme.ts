@@ -105,6 +105,7 @@ export default hopeTheme(
         align: true,
         attrs: true,
         component: true,
+        markmap:true,
         demo: true,
         include: true,
         mark: true,

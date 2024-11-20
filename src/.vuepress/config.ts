@@ -24,7 +24,7 @@ export default defineUserConfig({
     searchProPlugin({
       indexContent: true,
       hotReload: true,
-    })
+    }),
   ]
 
   // 和 PWA 一起启用

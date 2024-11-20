@@ -48,6 +48,17 @@ export default navbar([
     ],
   },
   {
+    text: "英语学习",
+    icon: "pen-nib",
+    prefix: "/posts/英语学习/",
+    children: [
+      {
+        text: "词汇笔记",
+        link: "词汇笔记/",
+      }
+    ],
+  },
+  {
     icon: "face-rolling-eyes",
     text: "关于我",
     link: "/intro",
