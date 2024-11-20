@@ -1,7 +1,7 @@
 import { defineUserConfig } from "vuepress";
 import { getDirname, path } from "vuepress/utils";
 import { appendDatePlugin } from '@vuepress/plugin-append-date'
-
+import { searchProPlugin } from "vuepress-plugin-search-pro";
 const __dirname = getDirname(import.meta.url);
 import theme from "./theme.js";
 
@@ -21,6 +21,10 @@ export default defineUserConfig({
 
   plugins: [
     appendDatePlugin(),
+    searchProPlugin({
+      indexContent: true,
+      hotReload: true,
+    })
   ]
 
   // 和 PWA 一起启用

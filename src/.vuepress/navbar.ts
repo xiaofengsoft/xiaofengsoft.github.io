@@ -3,6 +3,17 @@ import { navbar } from "vuepress-theme-hope";
 export default navbar([
   "/",
   {
+    text: "编程语言",
+    icon: "code",
+    prefix: "/posts/编程语言/",
+    children: [
+      {
+        text: "Python学习",
+        link: "Python学习/",
+      }
+    ],
+  },
+  {
     text: "题解",
     icon: "pen-to-square",
     prefix: "/posts/题解/",
@@ -29,6 +40,10 @@ export default navbar([
       {
         text: "数据分析",
         link: "数据分析/",
+      },
+      {
+        text: "Numpy与Pandas",
+        link: "Numpy与Pandas/",
       },
     ],
   },

@@ -6,8 +6,6 @@ category:
 tag:
   - 开源
   - 自动化测试
-star: true
-sticky: true
 ---
 
 <div align="center">

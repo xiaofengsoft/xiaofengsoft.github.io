@@ -15,7 +15,7 @@ export default hopeTheme(
 
     iconAssets: "fontawesome-with-brands",
 
-    logo: "https://avatars.githubusercontent.com/u/52116726?v=4",
+    logo: "https://foruda.gitee.com/avatar/1732082238164010260/5371216_xiaofengsb_1732082238.png!avatar200",
 
     repo: "xiaofengsoft/xiaofengsoft.github.io",
 
