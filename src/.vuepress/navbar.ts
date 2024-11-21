@@ -45,6 +45,10 @@ export default navbar([
         text: "Numpy与Pandas",
         link: "Numpy与Pandas/",
       },
+      {
+        text: "线性代数",
+        link: "线性代数/",
+      }
     ],
   },
   {

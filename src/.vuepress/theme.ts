@@ -79,6 +79,14 @@ export default hopeTheme(
         categoryId: "DIC_kwDONRLacc4CkXyN",
       },
 
+      markdownHint: {
+        alert: true,
+      },
+
+      markdownTab:{
+        tabs: true,
+      },
+
       components: {
         components: ["Badge", "VPCard"],
       },
@@ -90,15 +98,10 @@ export default hopeTheme(
         size: true,
       },
 
-      // markdownMath: {
-      //   // 启用前安装 katex
-      //   type: "katex",
-      //   // 或者安装 mathjax-full
-      //   type: "mathjax",
-      // },
-
-      // 此功能被开启用于演示，你应仅当使用时保留。
-      markdownTab: true,
+      markdownMath: {
+        // 或者安装 mathjax-full
+        type: "mathjax",
+      },
 
       // 此处开启了很多功能用于演示，你应仅保留用到的功能。
       mdEnhance: {
