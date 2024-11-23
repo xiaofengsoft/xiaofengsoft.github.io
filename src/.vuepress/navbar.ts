@@ -42,8 +42,8 @@ export default navbar([
         link: "数据分析/",
       },
       {
-        text: "Numpy与Pandas",
-        link: "Numpy与Pandas/",
+        text: "微积分",
+        link: "微积分/",
       },
       {
         text: "线性代数",
