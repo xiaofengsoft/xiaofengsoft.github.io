@@ -12,6 +12,10 @@ export default defineUserConfig({
       __dirname,
       "./components/BlogHero.vue"
     ),
+/*     "@theme-hope/modules/sidebar/components/Sidebar": path.resolve(
+      __dirname,
+      "./components/Sidebar.vue"
+    ) */
   },
   base: "/",
 
