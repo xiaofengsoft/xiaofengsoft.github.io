@@ -3,6 +3,8 @@ import { getDirname, path } from "vuepress/utils";
 import { appendDatePlugin } from '@vuepress/plugin-append-date'
 import { searchProPlugin } from "vuepress-plugin-search-pro";
 import { gitPlugin } from '@vuepress/plugin-git'
+import {CodeLinkReplacer} from './plugins/CodeLinkReplacer.js'
+
 const __dirname = getDirname(import.meta.url);
 import theme from "./theme.js";
 import { markdownMathPlugin } from '@vuepress/plugin-markdown-math'
@@ -37,8 +39,15 @@ export default defineUserConfig({
     gitPlugin({
       // 配置项
     }),
-  ]
+  ],
 
   // 和 PWA 一起启用
   // shouldPrefetch: false,
+
+  extendsMarkdown: (md) => {
+    md.use(CodeLinkReplacer,{
+      regex: /code:\/\//g,
+      replacement: 'https://github.com/xiaofengsoft/xiaofengsoft.github.io/blob/main/src/code/'
+    });
+  }
 });
