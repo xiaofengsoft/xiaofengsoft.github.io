@@ -35,7 +35,5 @@ k近邻算法，也称为 KNN 或 k-NN，是一种非参数、有监督的学习
 
 ### 附录
 
-[使用KNN算法分析生活日常事件代码](https://github.com/xiaofengsoft/xiaofengsoft.github.io/blob/main/src/code/机器学习/使用KNN算法分析生活日常事件.ipynb) \
-[KNN实战识别数字](https://github.com/xiaofengsoft/xiaofengsoft.github.io/blob/main/src/code/机器学习/KNN实战识别数字.ipynb)
-
+[使用KNN算法分析生活日常事件代码](code://机器学习/使用KNN算法分析生活日常事件.ipynb) \
 [KNN实战识别数字](code://机器学习/KNN实战识别数字.ipynb)
