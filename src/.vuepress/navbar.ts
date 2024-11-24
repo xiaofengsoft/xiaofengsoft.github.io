@@ -52,6 +52,17 @@ export default navbar([
     ],
   },
   {
+    text: "人工智能",
+    icon: "square-root-variable",
+    prefix: "/posts/人工智能/",
+    children: [
+      {
+        text: "机器学习",
+        link: "机器学习/",
+      }
+    ],
+  },
+  {
     text: "英语学习",
     icon: "pen-nib",
     prefix: "/posts/英语学习/",
