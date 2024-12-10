@@ -1,4 +1,5 @@
 ---
+date: 2024-11-30
 title: AB路线
 tag:
   - BFS

@@ -14,6 +14,21 @@ export default navbar([
     ],
   },
   {
+    text: "解决办法",
+    icon: "pen-to-square",
+    prefix: "/posts/解决办法/",
+    children: [
+      {
+        text: "前端",
+        link: "前端/",
+      },
+      {
+        text: "Python",
+        link: "Python/",
+      },
+    ],
+  },
+  {
     text: "题解",
     icon: "pen-to-square",
     prefix: "/posts/题解/",
