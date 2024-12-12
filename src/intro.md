@@ -3,6 +3,7 @@ date: 2024-11-18
 ---
 
 ---
+
 icon: circle-info
 ---
 
@@ -10,7 +11,7 @@ icon: circle-info
 
 3 年经验 / 18 岁 / 男 / 17629851627 / 中原工学院 / 数据科学与大数据技术 / GPA 3.8/5.0
 
-icon:gitee https://gitee.com/xiaofengsb     icon:email xiaofengs@yeah.net    icon:blog https://juejin.cn/user/627171387769035
+icon:gitee <https://gitee.com/xiaofengsb>     icon:email <xiaofengs@yeah.net>    icon:blog <https://juejin.cn/user/627171387769035>
 
 ## 专业技能
 

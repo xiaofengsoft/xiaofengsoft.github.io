@@ -8,6 +8,9 @@ heroImage: https://foruda.gitee.com/avatar/1732082238164010260/5371216_xiaofengs
 heroText: ZhangYifeng
 heroFullScreen: true
 tagline: 张一风的个人博客
-
+head:
+  - - meta
+    - name: 张一风的个人博客
+      content: 张一风,技术博客,Blog
 footer: ""
 ---
