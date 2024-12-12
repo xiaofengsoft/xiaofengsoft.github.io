@@ -26,6 +26,10 @@ export default navbar([
         text: "Python",
         link: "Python/",
       },
+      {
+        text: "绿色上网",
+        link: "绿色上网/",
+      }
     ],
   },
   {
