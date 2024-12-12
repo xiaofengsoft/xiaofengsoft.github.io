@@ -22,7 +22,7 @@ export default defineUserConfig({
   base: "/",
 
   lang: "zh-CN",
-  title: "ZhangYifeng",
+  title: "",
   description: "张一风的个人博客",
   theme,
 
