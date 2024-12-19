@@ -3,7 +3,7 @@ import { getDirname, path } from "vuepress/utils";
 import { appendDatePlugin } from '@vuepress/plugin-append-date'
 import { searchProPlugin } from "vuepress-plugin-search-pro";
 import { gitPlugin } from '@vuepress/plugin-git'
-import {CodeLinkReplacer} from './plugins/CodeLinkReplacer.js'
+import { CodeLinkReplacer } from './plugins/CodeLinkReplacer.js'
 
 const __dirname = getDirname(import.meta.url);
 import theme from "./theme.js";
@@ -14,10 +14,15 @@ export default defineUserConfig({
       __dirname,
       "./components/BlogHero.vue"
     ),
-/*     "@theme-hope/modules/sidebar/components/Sidebar": path.resolve(
+    "@theme-hope/modules/blog/components/ArticleItem": path.resolve(
       __dirname,
-      "./components/Sidebar.vue"
-    ) */
+      "./components/ArticleItem.vue"
+    ),
+
+    /*     "@theme-hope/modules/sidebar/components/Sidebar": path.resolve(
+          __dirname,
+          "./components/Sidebar.vue"
+        ) */
   },
   base: "/",
 
@@ -45,7 +50,7 @@ export default defineUserConfig({
   // shouldPrefetch: false,
 
   extendsMarkdown: (md) => {
-    md.use(CodeLinkReplacer,{
+    md.use(CodeLinkReplacer, {
       regex: /code:\/\//g,
       replacement: 'https://github.com/xiaofengsoft/xiaofengsoft.github.io/blob/main/src/code/'
     });
