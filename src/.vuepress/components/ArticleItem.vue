@@ -1,16 +1,21 @@
 <template>
-  <v-card class="item-wrapper" elevation="16" @click="$router.push(path)" :color="'indigo'"
-    :subtitle="`写作时间-${info.l} 字数-${info.r.words} 预估时长-${info.r.minutes}`">
-    <template #title>
-      {{ info.t }}
+  <Card ref="card" :bordered="false" headerBordered hover-shadow @click="$router.push(path)"
+    @mouseenter="handleMouseEnter" @mouseleave="handleMouseLeave">
+    <template #header style="padding: 0 auto;">
+      <h4 style="margin: 0 auto;text-align: left;">{{ info.t }}</h4>
     </template>
-    <div style="margin: 30px;" v-html="info.e">
-    </div>
 
-  </v-card>
+    <template #actions>
+    </template>
+    <div style=" margin: 30px;text-align: left;" v-html="info.e">
+    </div>
+  </Card>
 </template>
 <script setup>
-import { VCard, VBtn, VCardActions } from 'vuetify/components';
+import { defineProps, onMounted, ref } from 'vue'
+import { Card } from 'tdesign-vue-next'
+import anime from 'animejs'
+const card = ref(null)
 const props = defineProps({
   info: {
     type: Object,
@@ -18,22 +23,33 @@ const props = defineProps({
   },
   path: { type: String, required: true },
 })
+const handleMouseEnter = () => {
+  anime({
+    targets: card.value.$el,
+    scale: 1.03,
+    duration: 300,
+    easing: 'easeOutQuad',
+  })
+}
+
+const handleMouseLeave = () => {
+  anime({
+    targets: card.value.$el,
+    scale: 1,
+    duration: 300,
+    easing: 'easeOutQuad',
+  })
+}
+
+onMounted(() => {
+
+})
 </script>
-<style>
-.item-wrapper {
-  margin: 10px;
+<style scope>
+.t-card {
+  margin: 20px 0;
   cursor: pointer;
-}
-
-.v-card-title {
-  text-align: left;
-}
-
-.v-card-subtitle {
-  text-align: left;
-}
-
-.v-card-actions>button {
-  margin-left: auto;
+  background-color: var(--td-brand-color-8);
+  color: white;
 }
 </style>

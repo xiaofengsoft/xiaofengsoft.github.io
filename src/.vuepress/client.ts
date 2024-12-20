@@ -1,12 +1,11 @@
 import { defineClientConfig } from "vuepress/client";
-import { createVuetify } from 'vuetify'
-// import 'vuetify/styles'
+import TDesign from "tdesign-vue-next";
+import 'tdesign-vue-next/es/style/index.css';
+import './styles/theme.css'
+
 export default defineClientConfig({
   enhance({ app, router, siteData }) {
-    const vuetify = createVuetify({
-
-    })
-    app.use(vuetify)
+    app.use(TDesign);
   },
   setup() { },
   rootComponents: [],

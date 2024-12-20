@@ -26,6 +26,7 @@
     "vuepress-theme-hope": "2.0.0-rc.59"
   },
   "dependencies": {
-    "vuetify": "^3.7.6"
+    "animejs": "^3.2.2",
+    "tdesign-vue-next": "^1.10.5"
   }
 }

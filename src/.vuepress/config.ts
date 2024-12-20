@@ -64,6 +64,5 @@ export default defineUserConfig({
     });
   },
   head: [
-    ['link', { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/vuetify@3.0.0/dist/vuetify.min.css' }],
   ]
 });
