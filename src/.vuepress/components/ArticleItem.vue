@@ -1,14 +1,11 @@
 <template>
-  <v-card class="item-wrapper" elevation="16" :color="'indigo'"
+  <v-card class="item-wrapper" elevation="16" @click="$router.push(path)" :color="'indigo'"
     :subtitle="`写作时间-${info.l} 字数-${info.r.words} 预估时长-${info.r.minutes}`">
     <template #title>
       {{ info.t }}
     </template>
     <div style="margin: 30px;" v-html="info.e">
     </div>
-    <v-card-actions>
-      <v-btn @click="$router.push(path)" variant="text">点击阅读</v-btn>
-    </v-card-actions>
 
   </v-card>
 </template>
@@ -21,11 +18,11 @@ const props = defineProps({
   },
   path: { type: String, required: true },
 })
-console.log(props.info)
 </script>
 <style>
 .item-wrapper {
   margin: 10px;
+  cursor: pointer;
 }
 
 .v-card-title {

@@ -18,6 +18,14 @@ export default defineUserConfig({
       __dirname,
       "./components/ArticleItem.vue"
     ),
+    // "@theme-hope/modules/navbar/components/Navbar": path.resolve(
+    //   __dirname,
+    //   "./components/NavBar.vue"
+    // ),
+    // "@theme-hope/components/CommonWrapper": path.resolve(
+    //   __dirname,
+    //   "./components/CommonWrapper.vue"
+    // )
 
     /*     "@theme-hope/modules/sidebar/components/Sidebar": path.resolve(
           __dirname,
@@ -27,7 +35,7 @@ export default defineUserConfig({
   base: "/",
 
   lang: "zh-CN",
-  title: "",
+  title: "ZhangYifeng",
   description: "张一风的个人博客",
   theme,
 
@@ -54,5 +62,8 @@ export default defineUserConfig({
       regex: /code:\/\//g,
       replacement: 'https://github.com/xiaofengsoft/xiaofengsoft.github.io/blob/main/src/code/'
     });
-  }
+  },
+  head: [
+    ['link', { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/vuetify@3.0.0/dist/vuetify.min.css' }],
+  ]
 });

@@ -1,64 +1,57 @@
 ---
+title: 我的简历
+icon: circle-info
 date: 2024-11-18
 ---
 
----
+### 张一风
 
-icon: circle-info
----
+本科生大二 / 19 岁 / 男 / 17629851627 / 中原工学院 / 数据科学与大数据技术 / GPA 3.8/5.0
 
-# 张一风
+博客：<https://xiaofengsoft.github.io/>
 
-3 年经验 / 18 岁 / 男 / 17629851627 / 中原工学院 / 数据科学与大数据技术 / GPA 3.8/5.0
+### 专业技能
 
-icon:gitee <https://gitee.com/xiaofengsb>     icon:email <xiaofengs@yeah.net>    icon:blog <https://juejin.cn/user/627171387769035>
+- 掌握计算机网络相关知识，如 TCP/IP、UDP、HTTP、HTTPS、DNS 协议等
+- 掌握常见的数据结构与算法，如链表、树、图论等，并能根据实际应用场景对功能进行优化
+- 软件工程理论基础较为扎实，了解设计模式及原则，有架构设计经验
+- 精通 Java Web,Python Web 开发，掌握 Spring Boot, Django 框架, mybatis 应用及其原理，了解前端工程化，能使用 Vite，Vue 框架以及相关技术栈。
+- 掌握数据分析，数据可视化，机器学习的相关知识
+- 掌握SQL的基本语法，数据库的设计与优化，数据库的原理，熟练使用Mysql，Redis，Neo4j等数据库
+- 熟练自动化测试工具，如 Playwright，Selenium，ApiFox，了解单元测试，集成测试，端到端测试等
+- 熟悉 linux 常用命令，了解 docker 部署，熟悉 git 版本控制
 
-## 专业技能
+### 所获荣誉
 
-- 软件工程理论基础较为扎实，了解分布式服务理论基础，了解设计模式及原则，有架构设计经验
-- Java 基础扎实，熟悉 ivm 内存管理、GC 算法，熟悉 java 集合类、多线程、JNI 等,有过并发编程经验
-- 精通 Java Web,Python Web 开发，掌握 spring(springboot、spring mvc), Django 框架, mybatis 应用及其原理
-- 熟悉 linux 常用命令，有 sql 优化经验，掌握 python/shell 脚本语言基本知识
-- 了解常见的数据结构与算法，如链表、树、图论等，并能根据实际应用场景对功能进行优化
-- 了解前端工程化，能使用 Vite 对项目进行基本的配置，熟悉 Vue 框架以及相关技术栈，并能在项目中实际应用
-- 了解计算机网络相关知识，如 TCP/IP、UDP、HTTP、HTTPS、DNS 协议等
+中级软件设计师  
+CET4  
+蓝桥杯省一等奖  
+全国大学生计算机挑战赛省二等奖  
 
-## 所获荣誉
+### 工作经历
 
-中级软件设计师     CET4     蓝桥杯省一等奖
+- 在网上接单兼职
 
-## 工作经历
+### 项目经历
 
-- 曾在网上接单兼职
+#### 老挝学生汉语中介语语音语料库
 
-## 项目经历
+- 项目描述: 主要分析留学生的普通话录音能力以及语音的声学信息，通过录音测评后前端的展示和对比，以及在线语音合成，期望找出留学生普通话发音的规律，并给出相对建议。包括Python Web，数据分析，数据可视化。
+- 技术选型: Python,FastAPI,Mysql,Docker,阿里云OSS,Aliyun语音合成,科大讯飞语音评测,Vue,NaiveUI,Echarts
+- 此项目的UI设计、技术选型、前端开发、后端接口设计、测试、运维部署都由我个人完成。
+- 该项目主要使用 FastAPI 搭建后端，通过 Mysql 存储基本数据，语音数据表格数据存储在阿里云OSS系统中，使用 Docker 进行部署，前端使用 Vue 框架，NaiveUI 组件库，Echarts 进行数据可视化展示，在线调用阿里云语音合成。通过分析留学生的普通话录音能力以及语音的声学信息，找出留学生普通话发音的规律，并给出相对建议。
 
-**配置大师**
+#### PostSync
 
-- 项目描述: 搭配了 AI 接口,一款用来分享 DIV 电脑配置的小程序
+- 项目描述: 一个用于管理、撰写以及自动化上传文档到多个博客网站的软件。包括Python Web以及前端自动化测试。
+- 技术选型: Python,Flask,PlayWright,PyWebview,Vue,TDesign
+- 此项目的UI设计、技术选型、后端接口设计、架构设计、测试、打包发布都由我个人完成。
+- 该项目主要由webview搭配Flask前后端联调，通过在前端完成参数的填写，后端通过Playwright完成自动化操作。通过反射技术，实现高度可扩展性，继承基础社区类可以快速添加新的博客网站支持。
 
-- 技术选型: Django,SimpleUI,Heidsql,微信小程序,OpenAI
+### 开源项目
 
-- 我在此项目中参与系统的架构设计、技术选型、环境搭建和后端的接口设计,模型设计,业务流程设计以及前端的页面设计,接口调试测试等
+[PostSync](https://github.com/xiaofengsoft/postsync)
 
-- 项目介绍：
-
-  - 结合 chatgpt 通过安全密钥，生成式口令完成 AI 智能生成推荐电脑配置
-  - 结合小程序完成微信登陆
-
-**苍穹外卖**
-
-- 项目描述: 项目分为用户端和商家端，商家端主要实现了对员工和菜品的增删改查，以及发放优惠卷。
-- 技术选型: Spring Boot,MyBatis-plus,Redis,MySQL
-- 项目介绍:
-  - 使用 Redis 对验证码，菜品进行缓存，缓解了高并发环境下频繁访问数据库造成性能下降
-  - JWT 替换 Session 来实现登录验证，阿里云 OSS（实现对象存储，即菜品和套餐图片存储
-  - 基于 SpringTask 实现了定时清除无效订单任务
-
-## 开源项目
-
-[ConfigurationMaster: 配置大师(gitee.com)](https://gitee.com/xiaofengsb/configuration-master)
-
-## 个人评价
+### 个人评价
 
 本人对编程有着极大的兴趣爱好，乐意与他人沟通,对任何事情或大或小,一丝不苟认真对待
