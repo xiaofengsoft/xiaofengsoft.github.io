@@ -72,7 +72,7 @@ export default navbar([
   },
   {
     text: "人工智能",
-    icon: "square-root-variable",
+    icon: "microchip",
     prefix: "/posts/人工智能/",
     children: [
       {
