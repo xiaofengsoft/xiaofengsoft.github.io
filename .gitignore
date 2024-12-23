@@ -3,4 +3,5 @@ src/.vuepress/.cache/
 src/.vuepress/.temp/
 src/.vuepress/dist/
 test.py
+test.ipynb
 test_*.py
