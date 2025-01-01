@@ -5,3 +5,4 @@ src/.vuepress/dist/
 test.py
 test.ipynb
 test_*.py
+test

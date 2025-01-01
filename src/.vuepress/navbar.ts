@@ -19,6 +19,10 @@ export default navbar([
     prefix: "/posts/解决办法/",
     children: [
       {
+        text: "编辑器",
+        link: "编辑器"
+      },
+      {
         text: "前端",
         link: "前端/",
       },
