@@ -4,11 +4,22 @@ import { appendDatePlugin } from '@vuepress/plugin-append-date'
 import { searchProPlugin } from "vuepress-plugin-search-pro";
 import { gitPlugin } from '@vuepress/plugin-git'
 import { CodeLinkReplacer } from './plugins/CodeLinkReplacer.js'
-
+import { viteBundler } from '@vuepress/bundler-vite'
 const __dirname = getDirname(import.meta.url);
 import theme from "./theme.js";
 import { markdownMathPlugin } from '@vuepress/plugin-markdown-math'
+
 export default defineUserConfig({
+
+  bundler: viteBundler({
+    // vite options
+    viteOptions: {
+    },
+    // ssg options
+    vuePluginOptions: {
+    }
+  }),
+
   alias: {
     "@theme-hope/modules/blog/components/BlogHero": path.resolve(
       __dirname,
@@ -58,10 +69,7 @@ export default defineUserConfig({
   // shouldPrefetch: false,
 
   extendsMarkdown: (md) => {
-    md.use(CodeLinkReplacer, {
-      regex: /code:\/\//g,
-      replacement: 'https://github.com/xiaofengsoft/xiaofengsoft.github.io/blob/main/src/code/'
-    });
+    md.use(CodeLinkReplacer, {});
   },
   head: [
   ]
