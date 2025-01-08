@@ -20,7 +20,7 @@ export default navbar([
     children: [
       {
         text: "编辑器",
-        link: "编辑器"
+        link: "编辑器/"
       },
       {
         text: "前端",

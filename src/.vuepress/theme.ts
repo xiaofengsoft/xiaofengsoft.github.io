@@ -26,7 +26,7 @@ export default hopeTheme(
     navbar,
 
     // 侧边栏
-    sidebar:false,
+    sidebar: false,
 
     // 页脚
     footer: "",
@@ -85,7 +85,7 @@ export default hopeTheme(
         alert: true,
       },
 
-      markdownTab:{
+      markdownTab: {
         tabs: true,
       },
 
@@ -105,14 +105,14 @@ export default hopeTheme(
         type: "mathjax",
       },
 
-      
+
 
       // 此处开启了很多功能用于演示，你应仅保留用到的功能。
       mdEnhance: {
         align: true,
         attrs: true,
         component: true,
-        markmap:true,
+        markmap: true,
         demo: true,
         include: true,
         mark: true,
@@ -145,13 +145,13 @@ export default hopeTheme(
         // echarts: true,
 
         // 在启用之前安装 flowchart.ts
-        // flowchart: true,
+        flowchart: true,
 
         // gfm requires mathjax-full to provide tex support
         // gfm: true,
 
         // 在启用之前安装 mermaid
-        // mermaid: true,
+        mermaid: true,
 
         // playground: {
         //   presets: ["ts", "vue"],
