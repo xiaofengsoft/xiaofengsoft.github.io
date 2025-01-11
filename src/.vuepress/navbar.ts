@@ -61,10 +61,6 @@ export default navbar([
         link: "统计学/",
       },
       {
-        text: "数据分析",
-        link: "数据分析/",
-      },
-      {
         text: "微积分",
         link: "微积分/",
       },
@@ -80,9 +76,18 @@ export default navbar([
     prefix: "/posts/人工智能/",
     children: [
       {
+        text: "数据分析",
+        link: "数据分析/",
+      },
+      {
         text: "机器学习",
         link: "机器学习/",
-      }
+      },
+      {
+        text: "深度学习",
+        link: "深度学习/",
+      },
+
     ],
   },
   {
