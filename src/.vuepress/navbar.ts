@@ -23,6 +23,10 @@ export default navbar([
         link: "编辑器/"
       },
       {
+        text: "逆向工程",
+        link: "逆向工程/"
+      },
+      {
         text: "前端",
         link: "前端/",
       },
