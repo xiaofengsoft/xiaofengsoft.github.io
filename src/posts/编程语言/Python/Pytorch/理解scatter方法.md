@@ -1,4 +1,5 @@
 ---
+date: 2025-01-18
 title: 理解scatter方法
 ---
 

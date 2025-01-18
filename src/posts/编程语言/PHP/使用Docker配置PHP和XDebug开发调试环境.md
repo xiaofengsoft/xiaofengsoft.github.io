@@ -1,4 +1,5 @@
 ---
+date: 2025-01-18
 title: 使用Docker配置PHP和XDebug开发调试环境
 ---
 
@@ -126,3 +127,7 @@ rm -rf think-php
 接着访问`http://localhost:8080`就可以看到ThinkPHP的欢迎页面了。
 
 ![ThinkPHP页面](./imgs/ThinkPHP页面.png)
+
+而且可以在PHPStorm中直接断点调试thinkphp的代码。
+
+![断点调试Thinkphp入口](./imgs/断点调试Thinkphp入口.png)

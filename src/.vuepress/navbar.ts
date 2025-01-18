@@ -8,8 +8,12 @@ export default navbar([
     prefix: "/posts/编程语言/",
     children: [
       {
-        text: "Python学习",
-        link: "Python学习/",
+        text: "Python",
+        link: "Python/",
+      },
+      {
+        text: "PHP",
+        link: "PHP/",
       }
     ],
   },
