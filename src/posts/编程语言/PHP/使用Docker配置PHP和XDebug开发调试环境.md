@@ -52,9 +52,6 @@ CMD ["php", "-S", "0.0.0.0:80", "-t", "public"]
 ## 创建 docker-compose.yml
 
 ```yaml
-version: '3.8'
-
-version: '3.8'
 
 services:
   php:
