@@ -16,7 +16,7 @@ head:
     - name: keywords
       content: 张一风,技术博客,Blog
   - - meta
-    - name: google-site-verification
-      content: KGV4Clrysgv-H9zMuGjtk0Z96JXtHvKX6RODE8knnlc
+    - name: 360-site-verification
+      content: 99b73f7c4093ee7625ea218c8f9c497b
 footer: ""
 ---
