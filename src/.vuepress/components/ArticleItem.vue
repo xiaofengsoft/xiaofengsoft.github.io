@@ -49,7 +49,7 @@ onMounted(() => {
 .t-card {
   margin: 20px 0;
   cursor: pointer;
-  background-color: var(--td-brand-color-8);
+  background-color: var(--td-brand-color-6);
   color: white;
 }
 </style>
