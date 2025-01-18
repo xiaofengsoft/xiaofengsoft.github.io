@@ -64,12 +64,6 @@ export default defineUserConfig({
     gitPlugin({
       // 配置项
     }),
-    seo({
-    }),
-    sitemap({
-      hostname: "https://xiaofengsoft.github.io",
-      changefreq: "hourly",
-    })
   ],
 
   // 和 PWA 一起启用
