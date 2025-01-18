@@ -8,6 +8,7 @@ import { viteBundler } from '@vuepress/bundler-vite'
 const __dirname = getDirname(import.meta.url);
 import theme from "./theme.js";
 import { markdownMathPlugin } from '@vuepress/plugin-markdown-math'
+import { seo, sitemap } from "vuepress-theme-hope";
 
 export default defineUserConfig({
 
@@ -63,6 +64,11 @@ export default defineUserConfig({
     gitPlugin({
       // 配置项
     }),
+    seo({
+    }),
+    sitemap({
+      hostname: "https://xiaofengsoft.github.io",
+    })
   ],
 
   // 和 PWA 一起启用
