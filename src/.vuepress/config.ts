@@ -68,6 +68,7 @@ export default defineUserConfig({
     }),
     sitemap({
       hostname: "https://xiaofengsoft.github.io",
+      changefreq: "hourly",
     })
   ],
 
