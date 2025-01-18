@@ -67,7 +67,7 @@ export default hopeTheme(
       blog: true,
       seo: {
         hostname: "https://xiaofengsoft.github.io",
-      }
+      },
       sitemap: {
         hostname: "https://xiaofengsoft.github.io",
         changefreq: "always",
