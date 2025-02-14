@@ -60,9 +60,9 @@ export default navbar([
     ],
   },
   {
-    text: "数学建模",
+    text: "数学",
     icon: "square-root-variable",
-    prefix: "/posts/数学建模/",
+    prefix: "/posts/数学/",
     children: [
       {
         text: "统计学",
@@ -75,6 +75,9 @@ export default navbar([
       {
         text: "线性代数",
         link: "线性代数/",
+      }, {
+        text: "概率论",
+        link: "概率论/",
       }
     ],
   },
@@ -95,6 +98,10 @@ export default navbar([
         text: "深度学习",
         link: "深度学习/",
       },
+      {
+        text: "NLP",
+        link: "NLP/",
+      }
 
     ],
   },
