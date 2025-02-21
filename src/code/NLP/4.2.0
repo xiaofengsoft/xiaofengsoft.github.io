@@ -1,0 +1,22 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting nbformat
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/a9/82/0340caa499416c78e5d8f5f05947ae4bc3cba53c9f038ab6e9ed964e22f1/nbformat-5.10.4-py3-none-any.whl (78 kB)
+Collecting fastjsonschema>=2.15 (from nbformat)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/90/2b/0817a2b257fe88725c25589d89aec060581aabf668707a8d03b2e9e0cb2a/fastjsonschema-2.21.1-py3-none-any.whl (23 kB)
+Collecting jsonschema>=2.6 (from nbformat)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/69/4a/4f9dbeb84e8850557c02365a0eee0649abe5eb1d84af92a25731c6c0f922/jsonschema-4.23.0-py3-none-any.whl (88 kB)
+Requirement already satisfied: jupyter-core!=5.0.*,>=4.12 in d:\python\condaenvs\pytorch\lib\site-packages (from nbformat) (5.7.2)
+Requirement already satisfied: traitlets>=5.1 in d:\python\condaenvs\pytorch\lib\site-packages (from nbformat) (5.14.3)
+Collecting attrs>=22.2.0 (from jsonschema>=2.6->nbformat)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/fc/30/d4986a882011f9df997a55e6becd864812ccfcd821d64aac8570ee39f719/attrs-25.1.0-py3-none-any.whl (63 kB)
+Collecting jsonschema-specifications>=2023.03.6 (from jsonschema>=2.6->nbformat)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d1/0f/8910b19ac0670a0f80ce1008e5e751c4a57e14d2c4c13a482aa6079fa9d6/jsonschema_specifications-2024.10.1-py3-none-any.whl (18 kB)
+Collecting referencing>=0.28.4 (from jsonschema>=2.6->nbformat)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/c1/b1/3baf80dc6d2b7bc27a95a67752d0208e410351e3feb4eb78de5f77454d8d/referencing-0.36.2-py3-none-any.whl (26 kB)
+Collecting rpds-py>=0.7.1 (from jsonschema>=2.6->nbformat)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/a1/fe/a0b8e4545125489821ca0b48368dc3815967f0e0f7dd7e8128a06fd078f8/rpds_py-0.23.0-cp310-cp310-win_amd64.whl (232 kB)
+Requirement already satisfied: platformdirs>=2.5 in d:\python\condaenvs\pytorch\lib\site-packages (from jupyter-core!=5.0.*,>=4.12->nbformat) (4.3.6)
+Requirement already satisfied: pywin32>=300 in d:\python\condaenvs\pytorch\lib\site-packages (from jupyter-core!=5.0.*,>=4.12->nbformat) (307)
+Requirement already satisfied: typing-extensions>=4.4.0 in d:\python\condaenvs\pytorch\lib\site-packages (from referencing>=0.28.4->jsonschema>=2.6->nbformat) (4.12.2)
+Installing collected packages: fastjsonschema, rpds-py, attrs, referencing, jsonschema-specifications, jsonschema, nbformat
+Successfully installed attrs-25.1.0 fastjsonschema-2.21.1 jsonschema-4.23.0 jsonschema-specifications-2024.10.1 nbformat-5.10.4 referencing-0.36.2 rpds-py-0.23.0
