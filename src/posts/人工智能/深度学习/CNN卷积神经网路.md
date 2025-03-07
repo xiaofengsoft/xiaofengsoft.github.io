@@ -78,6 +78,44 @@ $$
 | **输出通道数**       | 由卷积核的数量决定。                                                       | 与输入通道数相同。                                                         |
 | **空间尺寸变化**     | 可能改变特征图的空间尺寸。                                                 | 通常减小特征图的空间尺寸。                                                 |
 
+## 卷积层输出
+
+  **卷积层的参数**：
+
+- `in_channels`：输入通道数，这里是 `3`。
+- `out_channels`：输出通道数，这里是 `128`。
+- `kernel_size`：卷积核大小，这里是 `3x3`。
+- `padding`：填充大小，这里是 `1`。
+- `stride`：步幅，默认是 `1`。
+
+$$
+     \[
+     \text{output\_height} = \left\lfloor \frac{\text{height} + 2 \times \text{padding} - \text{kernel\_size}}{\text{stride}} \right\rfloor + 1
+     \]
+    $$
+
+    $$
+     \[
+     \text{output\_width} = \left\lfloor \frac{\text{width} + 2 \times \text{padding} - \text{kernel\_size}}{\text{stride}} \right\rfloor + 1
+     \]
+     $$
+
+**池化层的参数**：
+
+- `kernel_size`：池化窗口大小，这里是 `2x2`。
+- `stride`：步幅，这里是 `2`。
+
+$$
+     \[
+     \text{output\_height} = \left\lfloor \frac{\text{height} - \text{kernel\_size}}{\text{stride}} \right\rfloor + 1
+     \]
+     $$
+     $$
+     \[
+     \text{output\_width} = \left\lfloor \frac{\text{width} - \text{kernel\_size}}{\text{stride}} \right\rfloor + 1
+     \]
+      $$
+
 ## 附录
 
 [卷积神经网络-范叶亮的个人博客](https://leovan.me/cn/2018/08/cnn)
