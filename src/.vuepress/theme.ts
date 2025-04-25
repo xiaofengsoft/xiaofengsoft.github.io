@@ -14,9 +14,9 @@ export default hopeTheme(
     },
 
     iconAssets: "fontawesome-with-brands",
-    favicon: "https://foruda.gitee.com/avatar/1737268770223115743/5371216_xiaofengsb_1737268770.png!avatar100",
+    favicon: "https://q1.qlogo.cn/g?b=qq&nk=1365038232&s=640",
 
-    logo: "https://foruda.gitee.com/avatar/1737268770223115743/5371216_xiaofengsb_1737268770.png!avatar100",
+    logo: "https://q1.qlogo.cn/g?b=qq&nk=1365038232&s=640",
 
     repo: "xiaofengsoft/xiaofengsoft.github.io",
 

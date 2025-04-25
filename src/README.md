@@ -4,7 +4,7 @@ home: true
 layout: BlogHome
 icon: home
 title: 首页
-heroImage: https://foruda.gitee.com/avatar/1737268770223115743/5371216_xiaofengsb_1737268770.png!avatar100
+heroImage: https://q1.qlogo.cn/g?b=qq&nk=1365038232&s=640
 heroText: 张一风
 heroFullScreen: true
 tagline: 张一风的个人博客
@@ -15,8 +15,5 @@ head:
   - - meta
     - name: keywords
       content: 张一风,技术博客,Blog
-  - - meta
-    - name: 360-site-verification
-      content: 99b73f7c4093ee7625ea218c8f9c497b
 footer: ""
 ---
