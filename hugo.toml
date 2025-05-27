@@ -1,0 +1,73 @@
+baseURL = 'https://xiaofengsoft.github.io/'
+languageCode = 'zh-CN'
+languageName = '中文'
+title = '张一风的博客'
+theme = 'hugo-coder'
+
+
+[pagination]
+pagerSize = 20
+
+[services]
+[services.disqus]
+shortname = "yourdiscussshortname"
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "张一风"
+  info = "全栈开发与模型训练"
+  description = "张一风的个人网站"
+  keywords = "博客,开发者,个人"
+  avatarurl = "https://q1.qlogo.cn/g?b=qq&nk=1365038232&s=640"
+  #gravatar = "xiaofengs@yeah.net"
+
+  faviconSVG = "https://q1.qlogo.cn/g?b=qq&nk=1365038232&s=640"
+  favicon_32 = "https://q1.qlogo.cn/g?b=qq&nk=1365038232&s=640"
+  favicon_16 = "https://q1.qlogo.cn/g?b=qq&nk=1365038232&s=640"
+
+  since = 2023
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+  # customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa-brands fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/xiaofengsoft"
+
+[[params.social]]
+  name = "Twitter"
+  icon = "fa-brands fa-x-twitter fa-2x"
+  weight = 3
+  url = "https://x.com/xiaofengsxf"
+
+# Menu links
+[[menu.main]]
+  name = "归档"
+  weight = 1
+  url  = "posts/"
+[[menu.main]]
+  name = "关于"
+  weight = 2
+  url = "posts/intro/"
+[[menu.main]]
+  name = "解决办法"
+  url = "posts/解决办法/"
+  weight = 3
+
