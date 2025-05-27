@@ -15,6 +15,10 @@ shortname = "yourdiscussshortname"
 [markup.highlight]
 style = "github-dark"
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
 [params]
   author = "张一风"
   info = "全栈开发与模型训练"
