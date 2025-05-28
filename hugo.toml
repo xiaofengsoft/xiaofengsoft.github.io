@@ -42,6 +42,8 @@ style = "github-dark"
   # customSCSS = ["scss/custom.scss"]
   # customJS = ["js/custom.js"]
 
+  math = true # Enable math rendering
+
 [taxonomies]
   category = "categories"
   series = "series"
@@ -62,16 +64,57 @@ style = "github-dark"
   url = "https://x.com/xiaofengsxf"
 
 # Menu links
-[[menu.main]]
-  name = "归档"
-  weight = 1
-  url  = "posts/"
+
 [[menu.main]]
   name = "关于"
-  weight = 2
-  url = "posts/intro/"
+  weight = 1
+  url = "intro"
 [[menu.main]]
   name = "解决办法"
-  url = "posts/解决办法/"
+  url = "解决办法/"
+  weight = 2
+[[menu.main]]
+  name = "编程语言"
+  url = "编程语言/"
   weight = 3
+[[menu.main]]
+  name = "数学"
+  url = "数学/"
+  weight = 4
+[[menu.main]]
+  name = "题解"
+  url = "题解/"
+  weight = 5
+[[menu.main]]
+  name = "人工智能"
+  url = "人工智能/"
+  weight = 6
 
+
+[params.giscus] # https://giscus.app
+  repo = "xiaofengsoft/xiaofengsoft.github.io"
+  repoID = "R_kgDOOxbv5w"
+  category = "General"
+  categoryID = "DIC_kwDOOxbv584CqrKG"
+  mapping = "pathname"
+  term = ""
+  strict = "0"
+  reactionsEnabled = "1"
+  emitMetadata = "0"
+  inputPosition = "bottom"
+  theme = "preferred_color_scheme"
+  lang = "zh-CN"
+  loading = ""
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)'], ['$', '$']]
+
+          

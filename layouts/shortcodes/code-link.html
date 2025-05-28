@@ -1,0 +1,4 @@
+{{ $codePath := .Get 0 | replaceRE ".ipynb$" "" }}
+<t-card style="background-color:white">
+  <iframe src="https://nbviewer.org/github/xiaofengsoft/xiaofengsoft.github.io/blob/master/{{ $codePath }}.ipynb" frameborder="0" scrolling="0" width="100%" height="700px" loading="lazy"></iframe>
+</t-card>

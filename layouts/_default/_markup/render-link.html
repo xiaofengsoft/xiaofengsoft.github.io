@@ -1,0 +1,8 @@
+{{ if hasPrefix .Destination "code://" }}
+  {{ $codePath := .Destination | replaceRE "^code://" "" | replaceRE ".ipynb$" "" }}
+  <div class="code-link-wrapper">
+    <iframe src="https://nbviewer.org/github/xiaofengsoft/xiaofengsoft.github.io/blob/main/src/code/{{ $codePath }}.ipynb" frameborder="0" scrolling="0" width="100%" height="700px" loading="lazy"></iframe>
+  </div>
+{{ else }}
+  <a href="{{ .Destination | safeURL }}">{{ .Text | safeHTML }}</a>
+{{ end }}
