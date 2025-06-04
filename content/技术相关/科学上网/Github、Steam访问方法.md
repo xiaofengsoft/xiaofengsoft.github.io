@@ -7,7 +7,7 @@ title: Github、Steam访问方法
 
 原来是Steam++，在Microsoft Store 可以直接下载
 下载后点击网络加速，选中Steam，Github点击一键加速
-![Watt Toolkit加速方法](../imgs/WattToolkit加速方法.png)
+![Watt Toolkit加速方法](/imgs/技术相关/科学上网/WattToolkit加速方法.png)
 
 ## 代理
 

@@ -3,7 +3,7 @@ date: 2025-02-17
 title: word2vec
 ---
 
-![Word2Vec模型架构](../imgs/Word2Vec模型架构.png)
+![Word2Vec模型架构](/imgs/人工智能/NLP/Word2Vec模型架构.png)
 
 ## 介绍
 

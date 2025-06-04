@@ -70,8 +70,8 @@ style = "github-dark"
   weight = 1
   url = "intro"
 [[menu.main]]
-  name = "解决办法"
-  url = "解决办法/"
+  name = "技术相关"
+  url = "技术相关/"
   weight = 2
 [[menu.main]]
   name = "编程语言"

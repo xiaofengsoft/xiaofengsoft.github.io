@@ -96,7 +96,7 @@ echo "Hello World!";
 ?>
 ```
 
-![点击调试](../imgs/点击调试.png)
+![点击调试](/imgs/编程语言/PHP/点击调试.png)
 
 先点击顶部菜单栏左边的“虫子”按钮，监听Xdebug端口，然后点击右边的绿色按钮，启动调试。
 
@@ -123,8 +123,8 @@ rm -rf think-php
 
 接着访问`http://localhost:8080`就可以看到ThinkPHP的欢迎页面了。
 
-![ThinkPHP页面](../imgs/ThinkPHP页面.png)
+![ThinkPHP页面](/imgs/编程语言/PHP/ThinkPHP页面.png)
 
 而且可以在PHPStorm中直接断点调试thinkphp的代码。
 
-![断点调试Thinkphp入口](../imgs/断点调试Thinkphp入口.png)
+![断点调试Thinkphp入口](/imgs/编程语言/PHP/断点调试Thinkphp入口.png)
